@@ -48,6 +48,14 @@ Double-click **`push_skills.bat`**, or from WSL:
 cd /mnt/e/hermes-skills && ./push_skills.sh
 ```
 
+Desktop shortcuts (created 2026-10-03):
+
+- **Hermes Skills - Push to GitHub** - runs `push_skills.bat` (commit + push everything).
+- **Hermes Skills - Folder** - opens `E:\hermes-skills` in Explorer.
+
+`push_skills.sh` is safe to run with nothing staged: it prints "Nothing to push" and exits 0. If the push
+fails (auth / network / remote ahead) it says so and keeps the local commit - fix and re-run, nothing is lost.
+
 ## Layout
 
 ```
