@@ -1,0 +1,20 @@
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Logs & caches
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Local overrides
+*.local
